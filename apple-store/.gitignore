@@ -1,0 +1,94 @@
+# Apple Store - Git Ignore File
+
+# Environment and Configuration
+.env
+.env.local
+.env.production
+config/local.php
+
+# Database
+*.sql
+*.db
+*.sqlite
+database/backups/
+
+# Logs
+logs/
+*.log
+error.log
+access.log
+
+# Cache and Temporary Files
+cache/
+tmp/
+temp/
+*.tmp
+*.cache
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Node.js (if using any build tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# PHP
+vendor/
+composer.lock
+
+# Media Files (optional - uncomment if you don't want to track large media)
+# assets/videos/*.mp4
+# assets/videos/*.avi
+# assets/videos/*.mov
+# assets/images/*.jpg
+# assets/images/*.jpeg
+# assets/images/*.png
+# assets/images/*.gif
+
+# Backup Files
+*.bak
+*.backup
+*~
+
+# System Files
+.htaccess.backup
+wp-config.php.backup
+
+# Test Files (optional - uncomment if you don't want to track test files)
+# test-*.php
+# *-test.php
+# tests/temp/
+
+# Documentation Build Files
+docs/_build/
+docs/.doctrees/
+
+# Security Files (never commit these)
+private_keys/
+certificates/
+*.pem
+*.key
+*.crt
+
+# Local Development
+local/
+dev/
+development/
+
+# Compressed Files
+*.zip
+*.tar.gz
+*.rar
+
+# OS Generated Files
+.DS_Store?
+ehthumbs.db
+Icon?
